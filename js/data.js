@@ -20,7 +20,7 @@ const portfolioData = {
       major: "Matematika dan Ilmu Pengetahuan Alam (MIPA)",
       description:
         "Menempuh pendidikan menengah atas dengan fokus pada bidang sains dan matematika yang menjadi dasar pengembangan kemampuan analitis dan pemecahan masalah.",
-      image: "assets/images/logo-smasa.jpg"
+      image: "assets/images/logo smasa (1).jpg"
     },
     {
       period: "2023 - 2026",
@@ -28,7 +28,7 @@ const portfolioData = {
       major: "D3 Teknik Elektro - Teknik Elektronika",
       description:
         "Mempelajari embedded system, Internet of Things (IoT), instrumentasi, sistem kendali, elektronika daya, PLC, dan otomasi industri melalui pembelajaran berbasis praktik.",
-      image: "assets/images/logo-polines.jpg"
+      image: "assets/images/logo polines.jpg"
     }
   ],
 
@@ -39,7 +39,7 @@ const portfolioData = {
       description:
         "Perancangan sistem power untuk Robot Arm pada pabrik CV Jaya Setya Plastik menggunakan PLC OMRON untuk mendukung sistem otomasi industri.",
       tags: ["PLC", "OMRON", "ROBOT ARM"],
-      image: "assets/images/panel-robbot.jpg"
+      image: "assets/images/panel robbot.jpg"
     },
 
     {
@@ -48,7 +48,7 @@ const portfolioData = {
       description:
         "Perancangan sistem monitoring ketinggian air bendungan menggunakan Arduino Uno dan sensor ultrasonik untuk pemantauan level air secara real-time.",
       tags: ["Arduino", "Sensor Ultrasonik", "Proteus"],
-      image: "assets/images/proyek-water-level.jpg"
+      image: "assets/images/proyek water level.jpg"
     },
 
     {
@@ -65,7 +65,7 @@ const portfolioData = {
         "OLED",
         "SOS System"
       ],
-      image: "assets/images/smartbackpack.jpg"
+      image: "assets/images/smartbacpack.jpg"
     }
   ],
 
@@ -117,7 +117,7 @@ const portfolioData = {
       company: "CV Jaya Setya Plastik",
       description:
         "Melakukan perawatan mesin industri, troubleshooting sistem kontrol, perbaikan peralatan produksi, serta pengembangan sistem berbasis PLC untuk mendukung proses otomasi industri.",
-      image: "assets/images/foto-magang.jpg",
+      image: "assets/images/foto magang.jpg",
       active: false
     }
   ],
@@ -129,7 +129,7 @@ const portfolioData = {
       organizer: "PT Indomaker Indonesia Mandiri",
       description:
         "Pelatihan desain PCB dan proses fabrikasi PCB untuk kebutuhan industri.",
-      image: "assets/images/sertif-pcb.jpg"
+      image: "assets/images/sertif pcb.jpg"
     }
   ],
 
