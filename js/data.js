@@ -103,7 +103,7 @@ const portfolioData = {
       "description": "Merancang dan mengembangkan sistem kontrol berbasis PLC untuk peralatan industri. Perbaikan Dan perswatan pada mesin, pengujian, dan dokumentasi teknis.",
       "image": "assets/images/foto magang.jpg"
       "active": false
-    },
+    }
   ],
 
   "Sertifikasi": [
