@@ -3,6 +3,7 @@
 // tanpa perlu fetch (kompatibel dengan membuka file lokal / tanpa server)
 
 const portfolioData = {
+  {
   "profile": {
     "name": "Bulan Aura Dwi Yulinda",
     "title": "Teknik Elektronika",
@@ -13,34 +14,46 @@ const portfolioData = {
     "github": "github.com/BulanAura"
   },
 
+  "education": [
+  {
+    "period": "2019 - 2022",
+    "institution": "SMA Negeri 1 Kudus",
+    "major": "Matematika dan Ilmu Pengetahuan Alam (MIPA)",
+    "description": "Menempuh pendidikan menengah atas dengan fokus pada bidang Matematika dan Ilmu Pengetahuan Alam. Selama masa sekolah mulai mengenal konsep dasar elektronika, fisika, dan pemecahan masalah berbasis sains yang menjadi fondasi ketertarikan pada dunia teknik.",
+    "image": "assets/images/logo smasa (1).jpg"
+  },
+  {
+    "period": "2023 - 2026",
+    "institution": "Politeknik Negeri Semarang",
+    "major": "Teknik Elektro - Program Studi Teknik Elektronika",
+    "description": "Mempelajari sistem elektronika, mikrokontroler, embedded system, instrumentasi, sistem kendali, Internet of Things (IoT), elektronika daya, serta perancangan dan implementasi perangkat keras maupun perangkat lunak. Aktif mengerjakan berbagai proyek berbasis Arduino, ESP32, PLC, dan sistem otomasi industri.",
+    "image": "assets/images/logo polines.jpg"
+  }
+]
+  
   "projects": [
     {
       "id": 1,
-      "title": "Sistem Kendali Motor DC Berbasis PID",
-      "description": "Perancangan sistem kendali kecepatan motor DC menggunakan algoritma PID dengan mikrokontroler STM32. Dilengkapi antarmuka serial untuk monitoring real-time.",
-      "tags": ["Embedded C", "STM32", "PID Control", "PCB Design"],
-      "image": "assets/images/project1.jpg"
+      "title": "Power Robbot Control",
+      "description": "Perancangan sistem Power untuk Robbot Arm pada pabrik CV jaya Setya Plastik.",
+      "tags": ["PLC", "OMRON", "ROBBOT ARM"],
+      "image": "assets/images/panel robbot.jpg"
     },
     {
       "id": 2,
-      "title": "Alat Ukur Kualitas Udara Portabel",
-      "description": "Perangkat IoT untuk memantau kadar PM2.5, CO2, dan kelembaban menggunakan sensor MQ-135 dan DHT22, ditampilkan via OLED dan dikirim ke dashboard cloud.",
-      "tags": ["Arduino", "IoT", "Sensor Integration", "ESP8266"],
-      "image": "assets/images/project2.jpg"
+      "title": "Water Leveling",
+      "description": "Perancangan sistem untuk mengukur ketinggian sebuah bendungan menggunakan Arduino Uno dan sensor ultrasonik.",
+      "tags": ["Arduino", "Sensor Ultrasonik", "Proteus"],
+      "image": "assets/images/proyek water level.jpg"
     },
     {
-      "id": 3,
-      "title": "Power Supply Variabel Terregulasi",
-      "description": "Desain power supply lab 0–30V / 3A dengan regulasi tegangan presisi tinggi menggunakan LM723 dan BJT pass transistor. Dilengkapi proteksi arus lebih.",
-      "tags": ["Analog Design", "PCB Layout", "Eagle CAD"],
-      "image": "assets/images/project3.jpg"
-    },
-    {
-      "id": 4,
-      "title": "Robot Line Follower Otomatis",
-      "description": "Robot otomatis berbasis sensor infrared array dengan kontrol PWM untuk motor DC. Mampu mengikuti jalur dengan kecepatan adaptif pada belokan tajam.",
-      "tags": ["Robotika", "AVR", "PWM", "Sensor IR"],
-      "image": "assets/images/project4.jpg"
+      {
+  "id": 3,
+  "title": "Smart Backpack Berbasis IoT dengan Sistem SOS untuk Pendakian Gunung",
+  "description": "Rancang bangun tas pintar untuk pendakian gunung berbasis ESP32 yang dilengkapi sensor DHT22 untuk memantau suhu lingkungan, modul GPS untuk pelacakan lokasi, OLED Display untuk menampilkan informasi secara real-time, serta sistem SOS yang dapat mengirim koordinat darurat melalui jaringan komunikasi LoRa guna meningkatkan keselamatan pendaki.",
+  "tags": ["ESP32", "IoT", "GPS", "LoRa", "DHT22", "OLED", "SOS System"],
+  "image": "assets/images/smartbacpack.jpg"
+}
     }
   ],
 
@@ -48,16 +61,15 @@ const portfolioData = {
     {
       "category": "Embedded System",
       "items": [
-        { "name": "STM32 / ARM Cortex", "level": 85 },
-        { "name": "Arduino / AVR", "level": 90 },
-        { "name": "ESP32 / IoT", "level": 80 },
-        { "name": "RTOS (FreeRTOS)", "level": 70 }
+        { "name": "Arduino", "level": 90 },
+        { "name": "ESP32 / IOT", "level": 80 },
+        { "name": "ESP8266", "level": 70 }
       ]
     },
     {
       "category": "Desain Elektronika",
       "items": [
-        { "name": "PCB Design (KiCad/Eagle)", "level": 88 },
+        { "name": "PCB Design (EasyEDA/Eagle)", "level": 88 },
         { "name": "Rangkaian Analog", "level": 82 },
         { "name": "Simulasi (LTSpice)", "level": 78 },
         { "name": "Power Electronics", "level": 72 }
@@ -69,7 +81,8 @@ const portfolioData = {
         { "name": "Embedded C / C++", "level": 87 },
         { "name": "Python (Scripting)", "level": 75 },
         { "name": "MATLAB / Simulink", "level": 70 },
-        { "name": "Assembly (AVR)", "level": 60 }
+        { "name": "Assembly (AVR)", "level": 60 },
+        { "name": "SCILAB / Xcos", "level": 80 }
       ]
     },
     {
@@ -77,7 +90,6 @@ const portfolioData = {
       "items": [
         { "name": "Osiloskop Digital", "level": 92 },
         { "name": "Multimeter & LCR Meter", "level": 95 },
-        { "name": "Spectrum Analyzer", "level": 65 },
         { "name": "Logic Analyzer", "level": 80 }
       ]
     }
@@ -85,32 +97,28 @@ const portfolioData = {
 
   "experience": [
     {
-      "period": "2024 – Sekarang",
-      "role": "Electronics Engineer",
-      "company": "PT. Teknologi Maju Indonesia, Semarang",
-      "description": "Merancang dan mengembangkan sistem kontrol berbasis mikrokontroler untuk peralatan industri. Bertanggung jawab atas desain PCB, pengujian, dan dokumentasi teknis.",
-      "active": true
-    },
-    {
-      "period": "2023 – 2024",
-      "role": "Embedded Systems Intern",
-      "company": "CV. Inovasi Elektronik, Semarang",
-      "description": "Mengembangkan firmware untuk produk IoT berbasis ESP32. Berkontribusi dalam desain skematik dan layout PCB untuk 3 produk komersial.",
+      "period": " 11 Agustus - 11 Desember 2025",
+      "role": "Maintenance Departemant",
+      "company": "CV. Jaya Setya Plastik",
+      "description": "Merancang dan mengembangkan sistem kontrol berbasis PLC untuk peralatan industri. Perbaikan Dan perswatan pada mesin, pengujian, dan dokumentasi teknis.",
+      "image": "assets/images/foto magang.jpg"
       "active": false
     },
-    {
-      "period": "2021 – 2023",
-      "role": "Asisten Laboratorium Elektronika",
-      "company": "Universitas — Jurusan Teknik Elektronika",
-      "description": "Mendampingi praktikum rangkaian analog, digital, dan sistem kendali. Menyusun modul praktikum dan panduan penggunaan instrumen laboratorium.",
-      "active": false
-    }
   ],
 
+  "Sertifikasi": [
+     {
+      "period": " 15 - 17 November 2024",
+      "Theme": " Design PCB",
+      "Penyelenggara": "PT indomaker Indonesia Mandiri",
+      "description": "Pelatihan design PCB dan pembuatan PCB untuk industri.",
+      "image": "assets/images/sertif pcb.jpg"
+    },
+  ],
   "contact": {
     "email": "bulanauraa@gmail.com",
     "phone": "+62 858 032 419 39",
     "location": "Semarang, Jawa Tengah, Indonesia",
     "github": "https://github.com/BulanAura"
   }
-};
+}:
